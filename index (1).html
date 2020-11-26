@@ -1,0 +1,61 @@
+
+<html>
+  <head>
+    <title>MobileNet</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script> 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script> 
+     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap">
+    
+
+    <link rel="stylesheet" type="text/css" href="style (3).css">
+  </head>
+
+  <body>
+    <center>
+      <div class = "col-xs-12 container">
+<h1>Image Recognition Website
+  <img id="image"src = "logo.gif"> 
+</h1> 
+</div>
+
+<div class="col-sm-6 col-xs-12 main_div">
+<label style="font-family: 'Special Elite', cursive;">Webcam View</label>
+<div id="camera"></div>
+<br>
+<button class = "btn btn-primary"  onclick = "capture_img()">Capture Image</button>
+</div>
+
+<div class="col-sm-6 col-xs-12 webcam">
+  <label style="font-family: 'Special Elite', cursive;">Snapshot View</label>
+  <div id="result"></div>
+<button class = "btn btn-success"  onclick = "identify_img()">Identify Image</button>
+  </div>
+  </center>
+  <div class = "col-xs-12 footer_div" > <h2 class  = "col-sm-6 col-xs-12"><img src = "blub.gif" id = "bulb"> <span id = "result_span"></span> </h2>
+    <br><br><br>
+  </div>
+  <br><br><br>
+ <center>
+  <div class = "copy_right_footer">
+    <label class = "text-muted">Developed by Nischitha-Student</label>
+</div>
+</center>
+
+    
+<script src="main (1).js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
